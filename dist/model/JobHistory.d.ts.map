@@ -1,0 +1,1 @@
+{"version":3,"file":"JobHistory.d.ts","sourceRoot":"","sources":["../../src/model/JobHistory.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,EAAE,EAAE,KAAK,EAAE,MAAM,UAAU,CAAC;AAI3C,MAAM,WAAW,WAAW;IACxB,gBAAgB,EAAE,KAAK,CAAC,QAAQ,CAAA;IAChC,SAAS,EAAE,MAAM,CAAA;CACpB;AAuBD,eAAO,MAAM,UAAU,8CAA8D,CAAC"}

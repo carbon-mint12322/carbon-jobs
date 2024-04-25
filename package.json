@@ -1,0 +1,34 @@
+{
+  "name": "@carbon-mint/jobs",
+  "version": "1.0.14",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha --timeout 500000 --require ts-node/register src/**/*.test.ts",
+    "jsonServer": "echo \"{\\\"scheduler\\\" : []}\" > 'jsonServerFakeData.json' && npx json-server --watch jsonServerFakeData.json",
+    "build": "rm -rf dist/ && npx tsc",
+    "release": "npm run build && npm version patch && npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.13.0",
+    "chai": "^4.3.7",
+    "json-server": "^0.17.1",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "url": "https://github.com/Carbon-Mint/jobs"
+  }
+}
